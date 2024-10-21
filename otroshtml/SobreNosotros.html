@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagenes/logo1 (1).jpg" alt="Aresio Logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fas fa-home"></i> Inicio</a></li>
+                <li><a href="SobreNosotros.html"><i class="fas fa-info-circle"></i> Sobre Nosotros</a></li>
+                <li><a href="contacto.html"><i class="fas fa-envelope"></i> Contacto</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- Primera sección con título y texto -->
+    <section class="top-section">
+        <div class="image-container">
+            <img src="imagenes/joyeria 2.png" alt="Manos con anillos" class="image">
+        </div>
+        <div class="text-container">
+            <h1>"Cuidado y Mantenimiento de tus Joyas Aresio: Conserva su Brillo y Belleza"</h1>
+            <p>El cuidado adecuado de tus joyas es esencial para preservar su valor y belleza a lo largo del tiempo. En Aresio, creemos que cada pieza cuenta una historia única, y con el mantenimiento adecuado, esa historia puede perdurar por generaciones. Desde una limpieza suave hasta el almacenamiento correcto, cada paso asegura que tus joyas mantengan su brillo y esplendor originales, permitiéndote lucirlas como el primer día.</p>
+        </div>
+    </section>
+
+    <!-- Segunda sección con guía completa y video -->
+    <section class="bottom-section">
+        <div class="text-container">
+            <h2>Guía completa: Como Cuidar y mantener tus Joyas Aresio en perfecto Estado</h2>
+            <p>El cuidado de las joyas es fundamental para preservar su belleza y longevidad. En Aresio, te ofrecemos algunos pasos clave para mantener tus piezas en perfecto estado. Primero, limpia tus joyas regularmente utilizando un paño suave y sin pelusa o un limpiador específico para el tipo de material de la joya, evitando productos químicos agresivos. Almacena cada pieza por separado en un lugar fresco y seco, preferiblemente en estuches de terciopelo o bolsas de tela, para evitar el contacto entre joyas que puede causar arañazos o daños.</p>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/56LGJNJEnbM?si=I41LVXIoqoE0BlSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Video sobre el cuidado de joyas" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const nav = document.querySelector('nav');
+    
+        hamburger.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
